@@ -20,13 +20,13 @@ folPath = "/Users/krbysh/Documents/98_Cap"
 
 
 ' Call AppleScript
-fNull = AppleScriptTask("importPngImages.scpt", "myFolderName", folPath)
-fNum = AppleScriptTask("importPngImages.scpt", "myFileNum", vbNullString)
+fNull = AppleScriptTask("importPngImages.applescript", "myFolderName", folPath)
+fNum = AppleScriptTask("importPngImages.applescript", "myFileNum", vbNullString)
 
 ReDim fArray(0 To fNum - 1)
 
 For i = 1 To fNum
-    fName = AppleScriptTask("importPngImages.scpt", "myFileName", i)
+    fName = AppleScriptTask("importPngImages.applescript", "myFileName", i)
     fArray(i - 1) = folPath & "/" & fName
 Next i
 
