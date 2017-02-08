@@ -1,5 +1,5 @@
 # Powerpoint-2016-Mac-ImportImages
-VB and AppleScript for PowerPoint 2016 for Mac to import multiple images
+VB and AppleScript for PowerPoint 2016 for Mac to import multiple png images
 
 # How to use
 The "importImages.vba" code may be copied to PowerPoint Macros.
