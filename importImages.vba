@@ -16,7 +16,7 @@ Dim fAccGranted As Boolean
 ' folPath is also used by AppleScript as aFol
 ' it isn't necessary to add the last "slash"
 
-folPath = "/Users/krbysh/Documents/98_Cap"
+folPath = "/Path/to/your/Image/Folder"
 
 
 ' Call AppleScript
