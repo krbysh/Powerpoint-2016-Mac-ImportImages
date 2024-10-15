@@ -38,7 +38,9 @@ For i = 1 To fNum
     LinkToFile:=msoFalse, _
     SaveWithDocument:=msoTrue, _
     Left:=27, _
-    Top:=78)
+    Top:=78, _
+    Width:=-1, _
+    Height:=-1)
 
     With oPic
       .LockAspectRatio = msoCTrue
